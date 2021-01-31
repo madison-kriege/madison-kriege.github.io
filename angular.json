@@ -24,6 +24,7 @@
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
+            "baseHref": "madison-kriege.github.io",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
