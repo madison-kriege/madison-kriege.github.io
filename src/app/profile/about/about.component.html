@@ -4,43 +4,41 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="card-body">
-              <div class="h4 mt-0 title">About</div>
-              <pre>
-              Hi, I'm <strong>Madison Kriege</strong>!
-
-              Developer inspired to help others pursue their passions through software that is accessible and innovative—a long-term goal of assisting students in growing through STEM education and leadership opportunities.
-
-              Strengths: Restorative, Futuristic, Significance, Relator, and Responsibility
-              </pre>
+              <div class="h4 mt-0 title">{{pageHeaders[0]}}</div>
+              {{aboutMe.introduction}}
+              <br>
+              {{aboutMe.bio}}
+              <br>
+              {{aboutMe.strengthStatement}}
             </div>
           </div>
           <div class="col-lg-6 col-md-12">
             <div class="card-body">
-              <div class="h4 mt-0 title">Basic Information</div>
+              <div class="h4 mt-0 title">{{pageHeaders[1]}}</div>
               <div class="row">
                 <div class="col-sm-4">
-                  <strong class="text-uppercase">Date of Birth:</strong>
+                  <strong class="text-uppercase">{{basicInfoHeaders[0]}}</strong>
                 </div>
-                <div class="col-sm-8">July 07, 1998</div>
+                <div class="col-sm-8">{{aboutMe.dateOfBirth}}</div>
               </div>
               <div class="row mt-3">
                 <div class="col-sm-4">
-                  <strong class="text-uppercase">Email:</strong>
+                  <strong class="text-uppercase">{{basicInfoHeaders[1]}}</strong>
                 </div>
-                <div class="col-sm-8">kriege.madison@gmail.com</div>
+                <div class="col-sm-8">{{aboutMe.email}}</div>
               </div>
               <div class="row mt-3">
                 <div class="col-sm-4">
-                  <strong class="text-uppercase">Location:</strong>
+                  <strong class="text-uppercase">{{basicInfoHeaders[2]}}</strong>
                 </div>
-                <div class="col-sm-8">Iowa City, Iowa
+                <div class="col-sm-8">{{aboutMe.location}}
                 </div>
               </div>
               <div class="row mt-3">
                 <div class="col-sm-4">
-                  <strong class="text-uppercase">Language:</strong>
+                  <strong class="text-uppercase">{{basicInfoHeaders[3]}}</strong>
                 </div>
-                <div class="col-sm-8">English</div>
+                <div class="col-sm-8">{{aboutMe.language}}</div>
               </div>
             </div>
           </div>
