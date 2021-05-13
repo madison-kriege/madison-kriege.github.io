@@ -6,7 +6,7 @@ import { SnotifyPosition } from 'ng-snotify';
 
 export const environment = {
   production: false,
-  baseUrl : `${window.location.protocol}//${window.location.hostname}/portfolio/`,
+  baseUrl : "https://madison-kriege.github.io",
 
   snotifyConfig : {
     showProgressBar: true,
