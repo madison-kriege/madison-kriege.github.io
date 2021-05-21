@@ -1,6 +1,7 @@
 {
   "name": "madison-kriege-portfolio",
   "version": "0.0.1",
+  "homepage": "https://madison-kriege.github.io",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
